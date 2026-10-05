@@ -1,0 +1,162 @@
+.footer {
+    background: #111c2b;
+    color: white;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.footer-title {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.footer-title i {
+    font-size: 25px;
+}
+
+.footer-tagline {
+    color: #dddddd;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.footer-text {
+    color: #dddddd;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 330px;
+}
+
+
+/* HEADINGS */
+
+.footer-heading {
+    font-weight: bold;
+    margin-bottom: 18px;
+    color: white;
+}
+
+
+/* QUICK LINKS */
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-links i {
+    margin-right: 7px;
+    font-size: 11px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #b46cff;
+}
+
+
+/* CONTACT */
+
+.footer p {
+    color: #dddddd;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer p i {
+    color: white;
+}
+
+
+/* SOCIAL ICONS */
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-decoration: none;
+
+    font-size: 17px;
+
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    transform: translateY(-4px);
+    opacity: 0.85;
+}
+
+
+/* SOCIAL COLORS */
+
+.facebook {
+    background: #1877f2;
+}
+
+.instagram {
+    background: #c13584;
+}
+
+.youtube {
+    background: #ff0000;
+}
+
+.linkedin {
+    background: #0a66c2;
+}
+
+
+/* HORIZONTAL LINE */
+
+.footer hr {
+    border: 0;
+    border-top: 1px solid #526070;
+    margin: 0;
+}
+
+
+/* COPYRIGHT */
+
+.copyright {
+    text-align: center;
+    padding: 14px 0 18px;
+    color: #dddddd;
+    font-size: 14px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .footer {
+        text-align: left;
+    }
+
+    .social-icons {
+        margin-bottom: 10px;
+    }
+
+}
